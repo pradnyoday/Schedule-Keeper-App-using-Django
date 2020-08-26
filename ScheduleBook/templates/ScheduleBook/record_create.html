@@ -1,0 +1,39 @@
+{% extends 'ScheduleBook/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    <div class="container">
+        <div class="content-section">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group" style="list-style:none;">
+                    <legend class="border-bottom mb-4">Add a Record</legend>
+                    
+                        <h6>Day#{{count}}</h6>
+                        <h6>Date : {{date | date:"F d, Y"}}</h6>
+                        Exercise (Morning) :<br>
+                        {{form.Exercise1}}<br>
+                        Machine Learning Course :<br>
+                        {{form.ML_Course}}<br>
+                        Machine Learning Project :<br>
+                        {{form.ML_Project}}<br>
+                        Exercise2 :<br>
+                        {{form.Exercise2}}<br>
+                        DSA Learning :<br>
+                        {{form.DSA_Learning}}<br>
+                        DSA Coding:<br>
+                        {{form.DSA_Coding}}<br>
+                        Walk :<br>
+                        {{form.Walk}}<br>
+                        Problem Solving :<br>
+                        {{form.Problem_Solving}}<br>
+               
+                    
+                </fieldset>
+                <div class="form-group">
+                    <button class="newDaybtn" type="submit">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+{% endblock content %}

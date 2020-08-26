@@ -1,0 +1,115 @@
+Exercise (Morning):<br>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="exercise1" id="exampleRadios1" value="Yes" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="exercise1" id="exampleRadios2" value="No">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div><br><br>
+
+                Machine Learning Course :<br>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="mlcourse" id="exampleRadios1" value="Yes" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="mlcourse" id="exampleRadios2" value="No">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div><br><br>
+
+                Machine Learning Project :<br>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="mlproject" id="exampleRadios1" value="Yes" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="mlproject" id="exampleRadios2" value="No">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div><br><br>
+
+
+                Exercise (Evening):<br>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="exercise2" id="exampleRadios1" value="Yes" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="exercise2" id="exampleRadios2" value="No">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div><br><br>
+
+
+                DSA (Learning):<br>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="dsalearning" id="exampleRadios1" value="Yes" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="dsalearning" id="exampleRadios2" value="No">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div><br><br>
+
+
+                DSA (Coding):<br>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="dsacoding" id="exampleRadios1" value="Yes" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="dsacoding" id="exampleRadios2" value="No">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div><br><br>
+
+
+                Walk :<br>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="walk" id="exampleRadios1" value="Yes" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="walk" id="exampleRadios2" value="No">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div><br><br>
+
+                Problem Solving :<br>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="problemsolving" id="exampleRadios1" value="Yes" checked>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="problemsolving" id="exampleRadios2" value="No">
+                  <label class="form-check-label" for="exampleRadios2">
+                    No
+                  </label>
+                </div><br>

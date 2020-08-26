@@ -1,0 +1,54 @@
+{% extends 'ScheduleBook/base.html' %}
+{% block content %}
+  
+
+    <div class="container">
+      <a class="newDaybtn" href="{%url 'record-create'%}">Add New Record</a>
+      <br><br>
+      {% for schedule in schedules%}
+      <article class="content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <small class="text-muted">{{schedule.Date | date:"F d, Y"}}</small>
+            </div>
+            <h2><a class="article-title">Day #{{schedule.Day}}</a></h2>
+            <table id="record">
+              <tr class="article-content">
+                <td>Exercise (Morning)   </td>
+                <td>{{schedule.Exercise1}}</td>
+              </tr>
+              <tr class="article-content">
+                <td>ML Course   </td>
+                <td>{{schedule.ML_Course}}</td>
+              </tr>
+              <tr class="article-content">
+                <td>ML Project   </td>
+                <td>{{schedule.ML_Project}}</td>
+              </tr>
+              <tr class="article-content">
+                <td>Exercise (Evening)   </td>
+                <td>{{schedule.Exercise2}}</td>
+              </tr>
+              <tr class="article-content">
+                <td>DSA Learning   </td>
+                <td>{{schedule.DSA_Learning}}</td>
+              </tr>
+              <tr class="article-content">
+                <td>DSA Coding   </td>
+                <td>{{schedule.Exercise1}}</td>
+              </tr>
+              <tr class="article-content">
+                <td>Walk   </td>
+                <td>{{schedule.Walk}}</td>
+              </tr>
+              <tr class="article-content">
+                <td>Problem Solving   </td>
+                <td>{{schedule.Problem_Solving}}</td>
+              </tr>
+            </table>
+          </div>
+        </article>
+      {%endfor%}
+    </div>
+{% endblock content %}
+
